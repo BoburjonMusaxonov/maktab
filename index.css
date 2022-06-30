@@ -103,7 +103,7 @@ form {
 }
 @media screen and (max-width: 1150px) {
   .container {
-    min-height: 180vh;
+    min-height: 200vh;
     background-color: aqua;
   }
   form {
@@ -126,5 +126,27 @@ form {
   }
   .farmonlar li {
     padding: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  #ism {
+    padding: 10px 5px;
+    margin: 10px;
+    font-size: 20px;
+  }
+  #fam {
+    padding: 10px 5px;
+    margin: 10px;
+    font-size: 20px;
+  }
+  #sana {
+    padding: 10px 35px;
+    margin: 10px;
+    font-size: 20px;
+  }
+  #btn2 {
+    padding: 10px 35px;
+    margin: 10px;
+    font-size: 20px;
   }
 }
